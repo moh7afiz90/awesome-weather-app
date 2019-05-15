@@ -1,8 +1,15 @@
 import React, { Component } from "react";
-
+import "./sass/app.scss";
 class App extends Component {
   render() {
-    return <h1>Hello World</h1>;
+    return (
+      <div className="app-container">
+        <div className="main-container">
+          <div className="top-section">TOP</div>
+          <div className="bottom-section">BOTTOM</div>
+        </div>
+      </div>
+    );
   }
 }
 
